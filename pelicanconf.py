@@ -38,6 +38,7 @@ PLUGIN_PATHS = ['pelican-plugins']
 
 PLUGINS = [
     'i18n_subsites',
+    'photos',
 ]
 
 JINJA_ENVIRONMENT = {
@@ -49,3 +50,12 @@ THEME = 'pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'darkly'
 
 TYPOGRIFY = True
+
+# PHOTOS plugin settings
+PHOTO_LIBRARY = "~/Pictures"
+PHOTO_GALLERY = (1024, 768, 80)
+PHOTO_ARTICLE = (760, 506, 80)
+PHOTO_THUMB = (192, 144, 60)
+PHOTO_SQUARE_THUMB = False
+PHOTO_RESIZE_JOBS = 1
+PHOTO_WATERMARK = False
