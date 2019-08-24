@@ -1,4 +1,4 @@
 Title: About
 
 
-{photo}just_me.jpg
+{filename}just_me.jpg
