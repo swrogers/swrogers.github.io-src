@@ -26,8 +26,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 )
 
 # Social widget
-SOCIAL = (('twitter', 'https://twitter.com/shane_w_rogers', 'twitter-square'),
-          ('github', 'https://github.com/swrogers', 'github-square'),
+SOCIAL = (('twitter', 'https://twitter.com/shane_w_rogers', 'twitter'),
+          ('github', 'https://github.com/swrogers', 'github'),
           ('pluspora', 'https://pluspora.com/people/6580df404dda01379587005056264835', 'diaspora'),
 )
 
