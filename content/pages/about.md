@@ -1,4 +1,5 @@
 Title: About
 
 
-{filename}just_me.jpg
+
+{% img images/just_me.jpg "It's just me" "Image of myself" %}

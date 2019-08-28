@@ -38,7 +38,11 @@ PLUGIN_PATHS = ['pelican-plugins']
 
 PLUGINS = [
     'i18n_subsites',
-    'photos',
+    'liquid_tags.img',
+    'liquid_tags.youtube',
+    'liquid_tags.include_code',
+    'liquid_tags.giphy',
+    'tag_cloud',
 ]
 
 JINJA_ENVIRONMENT = {
