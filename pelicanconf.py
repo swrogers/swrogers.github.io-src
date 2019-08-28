@@ -23,11 +23,13 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'https://twitter.com/shane_w_rogers', 'twitter-square'),
+          ('github', 'https://github.com/swrogers', 'github-square'),
+          ('pluspora', 'https://pluspora.com/people/6580df404dda01379587005056264835', 'diaspora'),
+)
 
 DEFAULT_PAGINATION = 10
 
@@ -54,6 +56,7 @@ JINJA_ENVIRONMENT = {
 
 THEME = 'pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'darkly'
+DISPLAY_TAGS_INLINE = True
 
 TYPOGRIFY = True
 
