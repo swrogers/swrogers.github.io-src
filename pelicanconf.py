@@ -47,6 +47,7 @@ PLUGINS = [
     'liquid_tags.include_code',
     'liquid_tags.giphy',
     'tag_cloud',
+#    'tipue_search',
 ]
 
 JINJA_ENVIRONMENT = {
@@ -56,15 +57,20 @@ JINJA_ENVIRONMENT = {
 
 THEME = 'pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'darkly'
+
+#THEME = 'pelican-themes/chunk'
+
+#DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
+
 DISPLAY_TAGS_INLINE = True
 
 TYPOGRIFY = True
 
 # PHOTOS plugin settings
-PHOTO_LIBRARY = "~/Pictures"
-PHOTO_GALLERY = (1024, 768, 80)
-PHOTO_ARTICLE = (760, 506, 80)
-PHOTO_THUMB = (192, 144, 60)
-PHOTO_SQUARE_THUMB = False
-PHOTO_RESIZE_JOBS = 1
-PHOTO_WATERMARK = False
+#PHOTO_LIBRARY = "~/Pictures"
+#PHOTO_GALLERY = (1024, 768, 80)
+#PHOTO_ARTICLE = (760, 506, 80)
+#PHOTO_THUMB = (192, 144, 60)
+#PHOTO_SQUARE_THUMB = False
+#PHOTO_RESIZE_JOBS = 1
+#PHOTO_WATERMARK = False
