@@ -20,10 +20,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-)
+#LINKS = (('Pelican', 'http://getpelican.com/'),
+#         ('Python.org', 'http://python.org/'),
+#         ('Jinja2', 'http://jinja.pocoo.org/'),
+#)
 
 # Social widget
 SOCIAL = (('twitter', 'https://twitter.com/shane_w_rogers', 'twitter'),
@@ -34,7 +34,7 @@ SOCIAL = (('twitter', 'https://twitter.com/shane_w_rogers', 'twitter'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 STATIC_PATHS = ['images']
 
@@ -47,7 +47,7 @@ PLUGINS = [
     'liquid_tags.include_code',
     'liquid_tags.giphy',
     'tag_cloud',
-#    'tipue_search',
+ #   'tipue_search',
 ]
 
 JINJA_ENVIRONMENT = {
@@ -55,11 +55,15 @@ JINJA_ENVIRONMENT = {
 }
 
 
-THEME = 'pelican-themes/pelican-bootstrap3'
-BOOTSTRAP_THEME = 'darkly'
+#THEME = 'pelican-themes/pelican-bootstrap3'
+#BOOTSTRAP_THEME = 'darkly'
 
 #THEME = 'pelican-themes/chunk'
+THEME = 'my-chunk'
+DISPLAY_CATEGORIES_ON_MENU = True
+SINGLE_AUTHOR = True
 
+#Tipue_search settings
 #DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 
 DISPLAY_TAGS_INLINE = True
