@@ -47,6 +47,7 @@ PLUGINS = [
     'liquid_tags.include_code',
     'liquid_tags.giphy',
     'tag_cloud',
+    'better_code_samples',
  #   'tipue_search',
 ]
 
