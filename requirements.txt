@@ -4,7 +4,7 @@ beautifulsoup4==4.8.0
 blinker==1.4
 bs4==0.0.1
 cffi==1.12.3
-cryptography==2.7
+cryptography==3.2
 docutils==0.15.2
 Fabric3==1.14.post1
 feedgenerator==1.9
